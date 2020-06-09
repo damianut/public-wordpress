@@ -1,0 +1,27 @@
+/**
+ * Theme Name: Twenty Nineteen Child
+ * Description: Child of "Twenty Nineteen" WordPress theme.
+ * Template: twentynineteen
+ * Text Domain: twentynineteen-child
+ * Version: 1.0
+ */
+#site-navigation {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.site-title, .site-description {
+  font-size: 1.5em;   
+}
+
+@media only screen and (min-width: 768px) {
+  .page-header {
+    margin: 0 calc(10% + 60px);
+  }
+}
+
+#candidate_data > tbody > tr > td:first-child {
+  background-color: #eeeeee6b;
+  width: 220px;  
+}
